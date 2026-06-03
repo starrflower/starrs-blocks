@@ -16,10 +16,9 @@ public class StarrSBlocks implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Registering " + StarrSBlocks.MOD_ID);
+		LOGGER.info("Initializing " + StarrSBlocks.MOD_ID);
 
 		ModBlocks.registerModBlocks();
 
-		LOGGER.info("finished registering " + StarrSBlocks.MOD_ID);
 	}
 }
