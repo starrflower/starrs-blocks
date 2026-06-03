@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import starrflower.blocks.block.ModBlocks;
 
 public class StarrSBlocks implements ModInitializer {
 	public static final String MOD_ID = "starrsblocks";
@@ -17,6 +18,7 @@ public class StarrSBlocks implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Registering " + StarrSBlocks.MOD_ID);
 
+		ModBlocks.registerModBlocks();
 
 		LOGGER.info("finished registering " + StarrSBlocks.MOD_ID);
 	}
